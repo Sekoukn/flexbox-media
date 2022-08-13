@@ -1,0 +1,65 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+/* tout element coder a l'exterieur des mediaquery sont considérés comme des appels généraux */
+    header{background: gray;
+    width: 100%;
+min-height: 50px;
+display: flex;
+justify-content: space-between;
+padding: 0 20px;
+align-items: center;
+}
+
+header > a{text-decoration: none;
+color: white;
+font-size: 20px;}
+
+nav{width: 300px;
+height: 50px;
+}
+
+nav ul{list-style: none;
+    display: flex;
+}
+
+nav ul li{
+width: 100px;
+height: 50px;
+line-height: 50px;
+text-align: center;}
+
+nav ul li a{text-decoration: none;
+color: white;}
+
+/* debut de main */
+
+main{width: 100%;
+background: beige;}
+
+section{display: flex;
+    flex-wrap: wrap;
+width: 80%;
+margin: auto;
+background: burlywood;}
+
+
+article{
+    flex: 1;
+min-width: 280px;
+height: 400px;
+border: 1px solid black;}
+
+section>article:nth-child(2){background: red; order: -1;}
+
+@media screen and (min-width:768px;) and (max-width:1279px)
+
+
+
+
+    
+@media screen and (max-width:767px){
+
+
+    
+}

@@ -1,0 +1,32 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.photo{width: 50%;
+    height: 600px;
+    margin: auto;
+overflow: hidden;
+background-size: cover;}
+
+
+    @media screen and (min-width:1280px) {
+        .photo{background: url(../img/lej.jpg) 0 0 no-repeat;
+        background-size: cover;}        
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1279px){
+ .photo{background: url(../img/les\ \(1\).jpg) 0 0 no-repeat;
+        background-size: cover;}    
+
+    }
+
+
+    @media screen and (min-width:680px) and (max-width:1023px) {
+         .photo{background: url(../img/cle.jpg) 0 0 no-repeat;
+        background-size: cover;}    
+    }
+
+    @media screen and (max_width:680px){
+         .photo{background: url(../img/dw.jpg) 0 0 no-repeat;
+        background-size: cover;}    
+    }
